@@ -7017,7 +7017,7 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-youtube-background@^1.0.11:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/youtube-background/-/youtube-background-1.0.11.tgz#8863fb569709bb49822eb71b61d35377d64b13ec"
-  integrity sha512-omE1PF3VMKtfYTsT4SMaJfWYq0FlDgDlRwYCTSk00oIEHj4E0mG3JhCjU1wl69+nEP78LEoLBG2sGieeaL2B4w==
+youtube-background@^1.0.13:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/youtube-background/-/youtube-background-1.0.13.tgz#f6f341803904a48430c71d1eab82acc531441feb"
+  integrity sha512-Ql1HoCDlKItHeDe22OgIzkOqOmmAkwxJ73fHu9D9+C5IpLS4YYxk7uta7FgztIted3OMCKfWqPYvtvJHm5MRUw==
