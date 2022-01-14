@@ -40,16 +40,16 @@ function buf2hex(buffer) { // buffer is an ArrayBuffer
 }
 
 function find_get_parameter(parameter_name) {
-    var result = null,
-        tmp = [];
-    location.search
-        .substring(1)
-        .split("&")
-        .forEach(function (item) {
-          tmp = item.split("=");
-          if (tmp[0] === parameter_name) result = decodeURIComponent(tmp[1]);
-        });
-    return result;
+  var result = null,
+    tmp = [];
+  location.search
+    .substring(1)
+    .split("&")
+    .forEach(function (item) {
+      tmp = item.split("=");
+      if (tmp[0] === parameter_name) result = decodeURIComponent(tmp[1]);
+    });
+  return result;
 }
 
 $(function () {
@@ -62,9 +62,9 @@ $(function () {
     document.getElementById('commentDiv').classList.add("col-md-12");
     document.getElementById('commentDiv').classList.remove("col-sm-6");
     document.getElementById('commentDiv').classList.add("col-sm-12");
-    document.getElementById('langEN').href = '?lng=en&code='+code;
-    document.getElementById('langFR').href = '?lng=fr&code='+code;
-    document.getElementById('langFA').href = '?lng=fa&code='+code;
+    document.getElementById('langEN').href = '?lng=en&code=' + code;
+    document.getElementById('langFR').href = '?lng=fr&code=' + code;
+    document.getElementById('langFA').href = '?lng=fa&code=' + code;
   }
   i18next.use(LanguageDetector).init({
     debug: true,
@@ -173,9 +173,12 @@ $(function () {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
 
-  L.marker([47.8561764, -2.2697361]).addTo(map)
-    .bindPopup('Manoir de la Fresnaye')
-    .openPopup();
+  const marker = L.marker([47.8561764, -2.2697361], {
+    title: "Manoir de la Fresnaye"
+  });
+
+  marker.on('click', () => window.location = "https://www.google.com/maps/dir//Manoir+de+la+Fresnaye,+56140+R%C3%A9miniac/@47.8562038,-2.2695998,17z/data=!4m16!1m6!3m5!1s0x480fbbcbec90e429:0x90c35356d193253!2sManoir+de+la+Fresnaye!8m2!3d47.8562002!4d-2.2674111!4m8!1m0!1m5!1m1!1s0x480fbbcbec90e429:0x90c35356d193253!2m2!1d-2.2674111!2d47.8562002!3e3");
+  marker.addTo(map);
 
   // RSVP
 
