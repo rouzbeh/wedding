@@ -16,6 +16,7 @@ delete L.Icon.Default.prototype._getIconUrl;
 
 import logo from '../assets/logo.svg';
 import logo_fa from '../assets/logo-fa.svg';
+import logo_small from '../assets/small-logo.svg';
 
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: marker2x,
@@ -38,7 +39,33 @@ function buf2hex(buffer) { // buffer is an ArrayBuffer
     .join('');
 }
 
-$(document).ready(function () {
+function find_get_parameter(parameter_name) {
+    var result = null,
+        tmp = [];
+    location.search
+        .substring(1)
+        .split("&")
+        .forEach(function (item) {
+          tmp = item.split("=");
+          if (tmp[0] === parameter_name) result = decodeURIComponent(tmp[1]);
+        });
+    return result;
+}
+
+$(function () {
+  document.getElementById('logoSmall').src = logo_small;
+  const code = find_get_parameter('code');
+  if (code !== null) {
+    document.getElementById('inviteCode').value = code;
+    document.getElementById('inviteCodeDiv').hidden = "true";
+    document.getElementById('commentDiv').classList.remove("col-md-6");
+    document.getElementById('commentDiv').classList.add("col-md-12");
+    document.getElementById('commentDiv').classList.remove("col-sm-6");
+    document.getElementById('commentDiv').classList.add("col-sm-12");
+    document.getElementById('langEN').href = '?lng=en&code='+code;
+    document.getElementById('langFR').href = '?lng=fr&code='+code;
+    document.getElementById('langFA').href = '?lng=fa&code='+code;
+  }
   i18next.use(LanguageDetector).init({
     debug: true,
     fallbackLng: 'en',
@@ -162,10 +189,10 @@ $(document).ready(function () {
     $('#alert-wrapper').html(alert_markup('info',
       i18next.t('saving')));
 
-    const buf = new TextEncoder('utf-8').encode(document.getElementById('inviteCode').value);
+    const buf = new TextEncoder('utf-8').encode('2rTdpdXqXwkPCD6j' + document.getElementById('inviteCode').value);
     const hash_buffer = await window.crypto.subtle.digest('SHA-256', buf);
     const hash = buf2hex(hash_buffer);
-    if (hash !== '810e0513f2170990ddc1693d677b0fcc77b61456093b51d69e6a0209606404bc') {
+    if (hash !== '6d16f5bf968fad8cf353f4f45f1c155620d0438233e853239c70d2fb81d2b8a6') {
       $('#alert-wrapper').html(alert_markup('danger', i18next.t('wrongCode')));
     } else {
       $.post('https://script.google.com/macros/s/AKfycbzFouecG2X4STE4PTd1U5G1ah814GDOD7_scFaoCH2TekAQi83Hi3M26YOXg5GjM__w3Q/exec', data)
