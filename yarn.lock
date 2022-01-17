@@ -7085,7 +7085,7 @@ yarn@^1.22.17:
   resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.22.17.tgz#bf910747d22497b573131f7341c0e1d15c74036c"
   integrity sha512-H0p241BXaH0UN9IeH//RT82tl5PfNraVpSpEoW+ET7lmopNC61eZ+A+IDvU8FM6Go5vx162SncDL8J1ZjRBriQ==
 
-youtube-background@^1.0.13:
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/youtube-background/-/youtube-background-1.0.13.tgz#f6f341803904a48430c71d1eab82acc531441feb"
-  integrity sha512-Ql1HoCDlKItHeDe22OgIzkOqOmmAkwxJ73fHu9D9+C5IpLS4YYxk7uta7FgztIted3OMCKfWqPYvtvJHm5MRUw==
+youtube-background@^1.0.14:
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/youtube-background/-/youtube-background-1.0.14.tgz#b3faefa302a408ec901faef138cc35602f65cf43"
+  integrity sha512-9KSE8T6aauWB3khBsZRvl1/pNB2+DgZclGt8b+ko+OkktLAk3mw1WEsb+wNqNiZEKsnU8YLA9wy/hkN/g0eYMQ==
