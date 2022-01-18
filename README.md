@@ -1,33 +1,22 @@
-# Webpack Frontend Starterkit
+# Wedding
 
-[![Dependabot badge](https://flat.badgen.net/dependabot/wbkd/webpack-starter?icon=dependabot)](https://dependabot.com/)
-
-A lightweight foundation for your next webpack based frontend project.
+This is a simple website for a wedding. It is based on 
+[Webpack starterpack](https://github.com/wbkd/webpack-starter). The design is inspired by [this other website](https://github.com/rampatra/wedding-website), from which I have also copied the RSVP mechanism.
 
 ### Installation
 
 ```sh
-npm install
+yarn install
 ```
 
 ### Start Dev Server
 
 ```sh
-npm start
+yarn start
 ```
 
 ### Build Prod Version
 
 ```sh
-npm run build
+yarn build
 ```
-
-### Features:
-
-- ES6 Support via [babel](https://babeljs.io/) (v7)
-- JavaScript Linting via [eslint](https://eslint.org/)
-- SASS Support via [sass-loader](https://github.com/jtangelder/sass-loader)
-- Autoprefixing of browserspecific CSS rules via [postcss](https://postcss.org/) and [postcss-preset-env](https://github.com/csstools/postcss-preset-env)
-- Style Linting via [stylelint](https://stylelint.io/)
-
-When you run `npm run build` we use the [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) to move the css to a separate file. The css file gets included in the head of the `index.html`.
