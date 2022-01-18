@@ -87,7 +87,7 @@ $(function () {
           "yourEmail": "Your email",
           "notes": "Comments",
           "inviteCode": "Invite code",
-          "itsMe": "Yes, that's me!",
+          "itsMe": "Send",
           "saving": "<strong>Just a sec!</strong> We are saving your details.",
           "wrongCode": "<strong>Sorry!</strong> Your invite code is incorrect."
         }
@@ -103,13 +103,13 @@ $(function () {
           "manorCity": "Réminiac, Bretagne",
           "thanks": "Merci !",
           "glad": "Nous sommes heureux de votre présence le jour J.",
-          "waiting": "Qu'attendez-vous ?",
+          "waiting": "Confirmer votre présence",
           "appreciate": "Nous vous remercions de bien vouloir nous faire parvenir votre réponse avant le premier juin 2022",
           "yourName": "Votre nom",
           "yourEmail": "Votre courriel",
           "notes": "Commentaires",
           "inviteCode": "Code d'invitation",
-          "itsMe": "Oui, c'est moi !",
+          "itsMe": "Envoyer",
           "saving": "<strong>Une petite seconde !</strong> On note.",
           "wrongCode": "<strong>Désolé !</strong> Le code est incorrect."
         }
