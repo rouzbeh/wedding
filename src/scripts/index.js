@@ -198,7 +198,7 @@ $(function () {
     if (hash !== '6d16f5bf968fad8cf353f4f45f1c155620d0438233e853239c70d2fb81d2b8a6') {
       $('#alert-wrapper').html(alert_markup('danger', i18next.t('wrongCode')));
     } else {
-      $.post('https://script.google.com/macros/s/AKfycbzFouecG2X4STE4PTd1U5G1ah814GDOD7_scFaoCH2TekAQi83Hi3M26YOXg5GjM__w3Q/exec', data)
+      $.post('https://script.google.com/macros/s/AKfycbxuxe8eyflFWHK_EU3-lITU6FnxROuI20vCn5aQ2a1tubnscJZk0JAnMbcEqV-f0r6VXA/exec', data)
         .done(function (data) {
           if (data.result === "error") {
             $('#alert-wrapper').html(alert_markup('danger', data.message));
