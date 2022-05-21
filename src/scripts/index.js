@@ -77,6 +77,8 @@ $(function () {
           "dates": "It is happening on the 19<sup>th</sup> of July 2022 and we would love for you to be a part of it.",
           "getThere": "How do I get there?",
           "easier": "It's way easier than you think!",
+          "room": "Where am I going to sleep?",
+          "roomList": "There is a limited number of rooms available in the manor. We take care of booking them for those who might have trouble finding a room. Otherwise, we recommend accomodations in <a href='public/hebergements.pdf'>this list</a>.",
           "manorName": "Manoir de la Fresnaye",
           "manorCity": "Réminiac, Brittany",
           "thanks": "Thank you!",
@@ -99,6 +101,8 @@ $(function () {
           "dates": "La fête aura lieu le 19 juillet 2022 et nous serions ravis de votre présence",
           "getThere": "Comment y aller ?",
           "easier": "Rien de plus simple !",
+          "room": "Où vais-je dormir?",
+          "roomList": "Il y a un nombre limité de chambres et de dortoirs dans le domaine. Nous nous chargeons de la réparitition et la réservations de ceux-ci. Si nous avons pu vous réserver une chambre, vous avez déjà dû être contacté. Sinon, nous recommandons les hébergements de <a href='public/hebergements.pdf'>cette liste</a>.",
           "manorName": "Manoir de la Fresnaye",
           "manorCity": "Réminiac, Bretagne",
           "thanks": "Merci !",
@@ -122,6 +126,8 @@ $(function () {
           "dates": "۲۸ تیر ۱۴۰۱ در فرانسه جشنی می‌گیریم، و از دیدنتان خوشحال می‌شویم",
           "getThere": "چطور به مکان برسیم؟",
           "easier": "بسیار ساده است!",
+          "room": "شب کجا میمانیم؟",
+          "roomList": "ما برای شما اتاق رزرو می‌کنیم!",
           "manorName": "Manoir de la Fresnaye",
           "manorCity": "Réminiac, Bretagne",
           "thanks": "سپاسگزاریم!",
@@ -146,6 +152,8 @@ $(function () {
     document.getElementById('dates').innerHTML = t('dates');
     document.getElementById('getThere').innerHTML = t('getThere');
     document.getElementById('easier').innerHTML = t('easier');
+    document.getElementById('room').innerHTML = t('room'),
+    document.getElementById('roomList').innerHTML = t('roomList'),
     document.getElementById('manorName').innerHTML = t('manorName');
     document.getElementById('manorCity').innerHTML = t('manorCity');
     document.getElementById('thanks').innerHTML = t('thanks');
