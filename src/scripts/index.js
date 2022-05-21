@@ -111,7 +111,7 @@ $(function () {
           "roomList": "Il y a un nombre limité de chambres et de dortoirs dans le domaine. Nous nous chargeons de la réparitition et la réservations de ceux-ci. Si nous avons pu vous réserver une chambre, vous avez déjà dû être contacté. Sinon, nous recommandons les hébergements de <a href='public/hebergements.pdf'>cette liste</a>.",
           "days": '<i class="far fa-calendar pe-2"></i>Ça dure combien de temps?',
           "daysList": "Nous serons sur les lieux dès le lundi après-midi. Vous pouvez nous y rejoindre pour profiter de la nature et la piscine pendant que nous préparerons la salle.",
-          "cadeaux": '<i class="fa-solid fa-gift pe-2"></i>Y a-t-il une liste de marige?',
+          "cadeaux": '<i class="fa-solid fa-gift pe-2"></i>Y a-t-il une liste de mariage?',
           "cadeauxList": "Pas encore...",
           "manorName": "Manoir de la Fresnaye",
           "manorCity": "Réminiac, Bretagne",
