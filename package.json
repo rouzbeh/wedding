@@ -71,7 +71,7 @@
     "i18next-browser-languagedetector": "^6.1.4",
     "jquery": "^3.6.0",
     "regenerator-runtime": "^0.13.9",
-    "yarn": "^1.22.18",
+    "yarn": "^1.22.19",
     "youtube-background": "^1.0.14"
   }
 }
