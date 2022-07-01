@@ -107,11 +107,11 @@ $(function () {
           "getThere": "Comment y aller ?",
           "easier": "Rien de plus simple !",
           "faqTitle": "Questions fréquentes",
-          "room": '<i class="fa-solid fa-bed pe-2"></i>Où vais-je dormir?',
+          "room": '<i class="fa-solid fa-bed pe-2"></i>Où vais-je dormir ?',
           "roomList": "Il y a un nombre limité de chambres et de dortoirs dans le domaine. Nous nous chargeons de la réparitition et la réservations de ceux-ci. Si nous avons pu vous réserver une chambre, vous avez déjà dû être contacté. Sinon, nous recommandons les hébergements de <a href='public/hebergements.pdf'>cette liste</a>.",
-          "days": '<i class="far fa-calendar pe-2"></i>Ça dure combien de temps?',
+          "days": '<i class="far fa-calendar pe-2"></i>Ça dure combien de temps ?',
           "daysList": "Nous serons sur les lieux dès le lundi après-midi. Vous pouvez nous y rejoindre pour profiter de la nature et la piscine pendant que nous préparerons la salle.",
-          "cadeaux": '<i class="fa-solid fa-gift pe-2"></i>Y a-t-il une liste de mariage?',
+          "cadeaux": '<i class="fa-solid fa-gift pe-2"></i>Y a-t-il une liste de mariage ?',
           "cadeauxList": "Pas encore...",
           "manorName": "Manoir de la Fresnaye",
           "manorCity": "Réminiac, Bretagne",
@@ -153,7 +153,36 @@ $(function () {
           "saving": "<strong>یک لحظه</strong> یاد داشت می‌کنیم.",
           "wrongCode": "<strong>Sorry!</strong> Wrong code."
         }
-      }
+      },
+      br: {
+        translation: {
+          "pageTitle": "Ali &#x1F492 Émeline",
+          "hitched": "Da zimeziñ emaomp o vont !",
+          "dates": "D'an 19 a viz Gouere e vo ar gouel ha laouen e vimp o welout ac'hanoc'h.",
+          "getThere": "Penaos mont di ?",
+          "easier": "Netra aesoc'h !",
+          "faqTitle": "Foar ar goulennoù",
+          "room": '<i class="fa-solid fa-bed pe-2"></i>Pelec\'h e kouskin ?',
+          "roomList": "Evit kousket ez eus un niverenn strizh a gambroù ha c'houskva en dachenn. Ni a zo e karg evit dasparzhañ anezho. M'ho peus bet tro da virout ur gambr oc'h bet e darempred ganeomp sur-a-walc'h. Mod-all setu ur roll gant bodoù <a href='public/hebergements.pdf'>a aliomp</a>.",
+          "days": '<i class="far fa-calendar pe-2"></i>Pegeit amzer e pado ?',
+          "daysList": "Adalek al lun goude merenn e vimp war al lec'h. Gallout a rit mont eno evit abuziñ eus an natur ha eus ar poull-neuial e-keit ma vezimp o staliañ ar sal.",
+          "cadeaux": '<i class="fa-solid fa-gift pe-2"></i>Ul listennad profoù a zo ?',
+          "cadeauxList": "N'eus ket evit ar poent...",
+          "manorName": "Maner an Onnod",
+          "manorCity": "Ruvenieg, Breizh (Mor-Bihan)",
+          "thanks": "Trugarez deoc'h !",
+          "glad": "Laouen omp o welout ac'hanout an deiz D.",
+          "waiting": "Kadarnaat ho tonedigezh",
+          "appreciate": "Ho trugarekaat da gas ho respont a-raok ar c'hentañ a viz Even 2022.",
+          "yourName": "Hoc'h anv",
+          "yourEmail": "Ho postel",
+          "notes": "Evezhiadennoù",
+          "inviteCode": "Kod pediñ",
+          "itsMe": "Kas",
+          "saving": "<strong>Un eilenn mar plij !</strong> O skrivañ emaomp.",
+          "wrongCode": "<strong>Ma digarezit !</strong> N'eo ket mat ar c'hod."
+        }
+      },
     }
   }).then(function (t) {
     document.getElementById('pageTitle').innerHTML = t('pageTitle');
