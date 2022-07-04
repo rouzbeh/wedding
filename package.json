@@ -46,7 +46,7 @@
     "i": "^0.3.6",
     "leaflet": "^1.8.0",
     "mini-css-extract-plugin": "^2.6.1",
-    "npm": "^8.12.2",
+    "npm": "^8.13.2",
     "postcss": "^8.4.14",
     "postcss-loader": "^7.0.0",
     "postcss-preset-env": "^7.7.1",
